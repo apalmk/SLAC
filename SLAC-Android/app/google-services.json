@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "38210543351",
+    "firebase_url": "https://slac-d7d0b.firebaseio.com",
+    "project_id": "slac-d7d0b",
+    "storage_bucket": "slac-d7d0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38210543351:android:8830b8e0ecf7f564",
+        "android_client_info": {
+          "package_name": "com.example.anjaniprasad.slac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38210543351-uer2icmvplqe1bpe87p3tael8rgph5pe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anjaniprasad.slac",
+            "certificate_hash": "c3ca8798dba2d0710fa63cc6029504d4ac96b38b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKjhL6TJ9k5YPJvdO2FXqGQ0dnNH4XD8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38210543351-86ns4mtj306me91fv37gp2jqvr3035ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

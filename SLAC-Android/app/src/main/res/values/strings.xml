@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SLAC</string>
+    <string name="details">This is a demo Android application designed for helping \n students keep track of their classroom behavior patterns. \n\n This app can also be used by the teacher to view the classroom behavior and teach accordingly.</string>
+    <string name="title_activity_login2">Login2</string>
+</resources>

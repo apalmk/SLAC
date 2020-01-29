@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bb"
+    android:scaleType="centerCrop"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:onClick="call1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/call"
+        />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:onClick="about"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iii"
+        />
+</LinearLayout>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_gravity="center"
+        android:backgroundTintMode="src_in"
+        android:elegantTextHeight="true"
+        android:focusable="true"
+        android:onClick="login"
+        android:text="Login"
+        android:textColorHighlight="@color/blue"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/blue"
+        android:backgroundTintMode="src_in"
+        android:elegantTextHeight="true"
+        android:focusable="true"
+        android:onClick="register"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@color/blue"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/forgot"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/blue"
+        android:backgroundTintMode="src_in"
+        android:elegantTextHeight="true"
+        android:focusable="true"
+        android:onClick="forgot"
+        android:text="forgot password"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@color/blue"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/footer"
+
+            layout="@layout/footer" />
+    </RelativeLayout>
+
+</LinearLayout>
